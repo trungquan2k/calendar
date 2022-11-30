@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738510436234",
+    "project_id": "calendar-qhoang",
+    "storage_bucket": "calendar-qhoang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738510436234:android:3a2566413e7ba5e9d27a73",
+        "android_client_info": {
+          "package_name": "com.qhoang.calendar_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738510436234-t998a2h1dolb0q31jic24umju6hjttvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoX9ewk0upqLxR0kFo8XQQkQ9wJiWrKls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738510436234-t998a2h1dolb0q31jic24umju6hjttvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

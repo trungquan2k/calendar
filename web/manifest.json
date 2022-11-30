@@ -1,6 +1,6 @@
 {
-    "name": "responsivetutorial",
-    "short_name": "responsivetutorial",
+    "name": "calendar",
+    "short_name": "calendar",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

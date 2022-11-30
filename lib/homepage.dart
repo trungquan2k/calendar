@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:responsivetutorial/responsive/desktop_body.dart';
-import 'package:responsivetutorial/responsive/mobile_body.dart';
-import 'package:responsivetutorial/responsive/responsive_layout.dart';
+import 'package:calendar/responsive/web_view.dart';
+import 'package:calendar/responsive/mobile_view.dart';
+import 'package:calendar/responsive/responsive_layout.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -15,8 +15,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ResponsiveLayout(
-        mobileBody: MyMobileBody(),
-        desktopBody: MyDesktopBody(),
+        mobileView: MyMobileBody(),
+        webView: WebResposiveView(),
       ),
     );
   }

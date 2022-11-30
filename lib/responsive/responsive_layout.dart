@@ -1,20 +1,20 @@
+import 'package:calendar/utils/dimensions.dart';
 import 'package:flutter/material.dart';
-import 'dimensions.dart';
 
 class ResponsiveLayout extends StatelessWidget {
-  final Widget mobileBody;
-  final Widget desktopBody;
+  final Widget mobileView;
+  final Widget webView;
 
-  ResponsiveLayout({required this.mobileBody, required this.desktopBody});
+  ResponsiveLayout({required this.mobileView, required this.webView});
 
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraints) {
         if (constraints.maxWidth < mobileWidth) {
-          return mobileBody;
+          return mobileView;
         } else {
-          return desktopBody;
+          return webView;
         }
       },
     );
